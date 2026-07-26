@@ -1,0 +1,17 @@
+Nametag design reference
+========================
+
+The compact cover/text/progress layout in this add-on was inspired by the
+open-source LabyMod Spotify add-on:
+
+  https://github.com/labymod-addons/spotify
+
+Reference file:
+  core/src/main/java/net/labymod/addons/spotify/core/labymod/nametag/SpotifySharedTrack.java
+
+Upstream revision inspected:
+  1f5f5669c9ee9486cd71fa0b20daadc7ea01a7bd
+
+The upstream repository is licensed under LGPL-2.1-or-later. This TIDAL
+renderer is a separate implementation adapted to local Windows media-session
+metadata, local cover files, and an animated equalizer fallback.

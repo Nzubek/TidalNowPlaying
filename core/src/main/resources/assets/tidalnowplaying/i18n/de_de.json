@@ -1,0 +1,91 @@
+{
+  "tidalnowplaying": {
+    "settings": {
+      "name": "TIDAL Now Playing",
+      "enabled": {
+        "name": "Addon aktivieren",
+        "description": "Hauptschalter für die TIDAL-Erkennung und die Nametag-Zeile."
+      },
+      "showMusicStatus": {
+        "name": "Musikstatus anzeigen",
+        "description": "Zeigt eine Musikzeile an, sobald verwendbare TIDAL-Metadaten vorliegen."
+      },
+      "showOwnStatus": {
+        "name": "Eigene Anzeige aktivieren",
+        "description": "Aktiviert die Musikzeile für den lokalen Spieler."
+      },
+      "showWhenPaused": {
+        "name": "Bei Pause anzeigen",
+        "description": "Lässt den aktuellen Titel sichtbar, solange TIDAL pausiert ist."
+      },
+      "showPauseSymbol": {
+        "name": "Pausensymbol anzeigen",
+        "description": "Ersetzt bei pausierter Wiedergabe das Musiksymbol durch ein Pausensymbol."
+      },
+      "showMusicIcon": {
+        "name": "Visuelle Kachel anzeigen",
+        "description": "Zeigt links das Cover oder ersatzweise den animierten Equalizer."
+      },
+      "showArtist": {
+        "name": "Interpret anzeigen"
+      },
+      "showTitle": {
+        "name": "Songtitel anzeigen"
+      },
+      "modernNametag": {
+        "name": "Modernes Zwei-Zeilen-Design",
+        "description": "Zeigt Titel und Interpret wie eine kompakte Now-Playing-Karte mit Equalizer an."
+      },
+      "animateNametag": {
+        "name": "Animationen aktivieren",
+        "description": "Animiert den Equalizer und bewegt zu lange Texte weich hin und her."
+      },
+      "displayTrackCover": {
+        "name": "TIDAL-Cover anzeigen",
+        "description": "Verwendet das von der lokalen Windows-Media-Session bereitgestellte Cover."
+      },
+      "animationSpeedMillis": {
+        "name": "Animationsintervall (ms)",
+        "description": "Kleinere Werte ergeben eine schnellere Animation."
+      },
+      "nametagScalePercent": {
+        "name": "Nametag-Größe (%)",
+        "description": "Skaliert die komplette Karte relativ zur kompakten Standardgröße."
+      },
+      "displayFormat": {
+        "name": "Anzeigeformat",
+        "description": "Wird im klassischen Ein-Zeilen-Design verwendet. Platzhalter: {icon}, {artist}, {title}, {separator}, {status}"
+      },
+      "maxTextLength": {
+        "name": "Maximale Textlänge",
+        "description": "Lange Zeilen laufen im modernen Design durch und werden im klassischen Design gekürzt."
+      },
+      "updateIntervalMillis": {
+        "name": "Aktualisierungsintervall (ms)",
+        "description": "Intervall der Windows-Media-Abfrage im Hintergrund-Thread."
+      },
+      "shareWithOthers": {
+        "name": "Für andere Spieler freigeben",
+        "description": "Für Version 2 vorbereitet. Version 1 überträgt niemals Daten."
+      },
+      "debugMode": {
+        "name": "Debug-Modus",
+        "description": "Schreibt zusätzliche, begrenzte Diagnosemeldungen in das Spiellog."
+      },
+      "header": {
+        "display": {
+          "name": "Anzeige"
+        },
+        "detection": {
+          "name": "TIDAL-Erkennung"
+        },
+        "privacy": {
+          "name": "Datenschutz und Freigabe"
+        },
+        "diagnostics": {
+          "name": "Diagnose"
+        }
+      }
+    }
+  }
+}

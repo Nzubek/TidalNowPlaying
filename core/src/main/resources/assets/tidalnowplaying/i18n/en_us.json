@@ -1,0 +1,91 @@
+{
+  "tidalnowplaying": {
+    "settings": {
+      "name": "TIDAL Now Playing",
+      "enabled": {
+        "name": "Enable addon",
+        "description": "Master switch for TIDAL detection and the nametag line."
+      },
+      "showMusicStatus": {
+        "name": "Show music status",
+        "description": "Shows a music line when usable TIDAL metadata is available."
+      },
+      "showOwnStatus": {
+        "name": "Show own status",
+        "description": "Enables the music line for your local player."
+      },
+      "showWhenPaused": {
+        "name": "Show while paused",
+        "description": "Keeps the current track visible while TIDAL is paused."
+      },
+      "showPauseSymbol": {
+        "name": "Use pause symbol",
+        "description": "Replaces the music symbol with a pause symbol while paused."
+      },
+      "showMusicIcon": {
+        "name": "Show visual tile",
+        "description": "Shows the cover or the animated equalizer fallback on the left."
+      },
+      "showArtist": {
+        "name": "Show artist"
+      },
+      "showTitle": {
+        "name": "Show song title"
+      },
+      "modernNametag": {
+        "name": "Modern two-line design",
+        "description": "Shows title and artist as a compact now-playing card with an equalizer."
+      },
+      "animateNametag": {
+        "name": "Enable animations",
+        "description": "Animates the equalizer and smoothly moves text that is too long."
+      },
+      "displayTrackCover": {
+        "name": "Show TIDAL cover",
+        "description": "Uses the cover supplied by the local Windows media session."
+      },
+      "animationSpeedMillis": {
+        "name": "Animation interval (ms)",
+        "description": "Lower values produce a faster animation."
+      },
+      "nametagScalePercent": {
+        "name": "Nametag size (%)",
+        "description": "Scales the complete card relative to its compact default size."
+      },
+      "displayFormat": {
+        "name": "Display format",
+        "description": "Used by the classic one-line design. Placeholders: {icon}, {artist}, {title}, {separator}, {status}"
+      },
+      "maxTextLength": {
+        "name": "Maximum text length",
+        "description": "Long lines scroll in the modern design and are shortened in the classic design."
+      },
+      "updateIntervalMillis": {
+        "name": "Update interval (ms)",
+        "description": "How often the background worker reads the Windows media session."
+      },
+      "shareWithOthers": {
+        "name": "Share with other players",
+        "description": "Reserved for version 2. Local-only version 1 never sends data."
+      },
+      "debugMode": {
+        "name": "Debug mode",
+        "description": "Writes additional, rate-limited diagnostic messages to the game log."
+      },
+      "header": {
+        "display": {
+          "name": "Display"
+        },
+        "detection": {
+          "name": "TIDAL detection"
+        },
+        "privacy": {
+          "name": "Privacy and sharing"
+        },
+        "diagnostics": {
+          "name": "Diagnostics"
+        }
+      }
+    }
+  }
+}
